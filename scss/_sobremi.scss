@@ -1,0 +1,27 @@
+main{
+    .card-s {
+        padding: 20px;
+        background: $fondooscuro;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+        border: none;
+    }
+    .img-s {
+        width: 250px;
+        height: 250px;
+    }
+    .texto-s {
+        color: #ffffff;
+        padding: 20px;
+    }
+    .titulo-s {
+        display: flex;
+        justify-content: center;
+        color: $letracolor;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
