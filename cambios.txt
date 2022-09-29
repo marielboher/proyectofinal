@@ -4,3 +4,5 @@ Para esta entrega realice los siguientes cambios:
 -	Modifique títulos de cada pagina HTML.
 -	Agregue meta etiquetas.
 -	Agregue alt a imágenes que no lo tenían.
+-   corregi rutas
+-   Agregue scss a media queries
