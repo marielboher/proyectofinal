@@ -1,3 +1,14 @@
 $fondooscuro: #222222;
 $letracolor: #E94560;
+$letraclara: #ffffff;
+
+
+@mixin hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    color: #ffffff;
+    border: $letracolor 1px solid;
+}
+
+
 

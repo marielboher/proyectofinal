@@ -1,13 +1,13 @@
 main{
     .table {
-        color: white;
+        color: $letraclara;
         box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
         background-color: $fondooscuro;
         text-align: left;
         border-collapse: collapse;
         th {
             padding: 20px;
-            color: #ffffff;
+            color: $letraclara;
         }
     }
 
@@ -18,12 +18,9 @@ main{
         width: 150px;
         height: 40px;
         border-radius: 5px;
-        color: #ffffff;
+        color: $letraclara;
         &:hover {
-            transform: scale(1.1);
-            background-color: transparent;
-            color: #ffffff;
-            border: $letracolor 1px solid;
+           @include hover
         }
     }
     .prog1 {

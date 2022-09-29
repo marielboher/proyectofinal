@@ -24,7 +24,7 @@
             background: none;
             border: 0;
             font-family: 'Raleway', sans-serif;
-            border-bottom: 2px solid #ffffff;
+            border-bottom: 2px solid $letraclara;
             font-size: 12px;
         }
         label {
@@ -39,13 +39,13 @@
         }
         button {
             padding: 8px 12px;
-            color: #ffffff;
+            color: $letraclara;
             border: none;
             background-color: $letracolor;
             border-radius: 5px;
             transition: transform .4s;
             &:hover {
-                transform: scale(1.1);
+                @include hover
             }
         }
     }
@@ -75,7 +75,7 @@
                 p {
                     font-size: 12px;
                     margin: 6px;
-                    color: #ffffff;
+                    color: $letraclara;
                 }
                 a {
                     text-decoration: none;
