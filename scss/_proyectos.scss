@@ -1,3 +1,5 @@
+/* pagina de proyectos */
+
 .proyectos {
     grid-area: proyectos;
     display: flex;
@@ -8,19 +10,19 @@
     
         h3 {display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         color: $letraclara;
         padding: 20px;
         font-size: 22px;
+        font-weight: bold;
         }
         .proyectos-row {
             display: flex;
             flex-wrap: wrap;
         }
         .proyectos-row-box {
+            @extend .cardex;
             margin: 20px;
-            background: $fondooscuro;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
             width: 250px;
             height: 300px;
             display: flex;
@@ -33,18 +35,20 @@
             }
             img {
                 width: 50px;
+                height: 40px;
             }
             h5 {
                 text-align: center;
-                padding: 20px;
-                margin-top: 0;
+                padding-top: 20px;
                 color: $letracolor;
+                font-weight: bold;
             }
             p {
                 color: $letraclara;
                 margin-left: 12px;
                 text-align: center;
                 min-height: 70px;
+                padding: 10px;
             }
             button {
                 height: 40px;

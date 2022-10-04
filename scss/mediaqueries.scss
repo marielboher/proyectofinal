@@ -1,44 +1,51 @@
+/* media queries */
+
 @media screen and (max-width: 320px) {
 
     /* inicio */
-    main{
+    main {
         .titulo-i {
             padding: 5px;
             font-size: 20px;
         }
-        
+
         .subtitulo-i {
             font-size: 25px;
             padding: 5px;
         }
-    
+
         .parrafo-i {
             padding: 5px;
             font-size: 20px;
         }
+
         .botones-i button {
             width: 90px;
             height: 40px;
             font-size: 12px;
         }
+
         .img-i {
             height: 200px;
         }
     }
-    
+
 
     /* sobre mi */
-    main{
+    main {
         .card-s {
             margin-bottom: 20px;
         }
+
         .img-s {
             width: 250px;
             height: 200px;
         }
+
         .texto-s {
             font-size: 13px;
         }
+
         .titulo-s {
             font-size: 18px;
         }
@@ -47,7 +54,7 @@
 
     /* proyectos */
 
-    .container-proyectos{
+    .container-proyectos {
         .proyectos-row {
             display: flex;
             flex-direction: column;
@@ -59,13 +66,16 @@
     .container-h {
         display: flex;
         flex-direction: column;
+
         .table {
             color: white;
+
             th {
                 padding: 20px;
                 color: #ffffff;
             }
         }
+
         .boton-h {
             background-color: #E94560;
             border: none;
@@ -84,48 +94,54 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 20px;
+
         .form {
             width: 16rem;
             height: 350px;
+
             div {
-               padding: 5px;
-           }
-           h2 {
-               font-size: 15px;
-               padding-bottom: 5px;
-           }
-       
-           input {
-               font-size: 12px;
-           }
-       
-           label {
-               font-size: 12px;
-           }
-       
-           textarea {
-               height: 40px;
-               width: 150px;
-               padding: 5px;
-           }
-       
-           button {
-               width: 60px;
-               height: 40px;
-               font-size: 12px;
-           }
+                padding: 5px;
+            }
+
+            h2 {
+                font-size: 15px;
+                padding-bottom: 5px;
+            }
+
+            input {
+                font-size: 12px;
+            }
+
+            label {
+                font-size: 12px;
+            }
+
+            textarea {
+                height: 40px;
+                width: 150px;
+                padding: 5px;
+            }
+
+            button {
+                width: 60px;
+                height: 40px;
+                font-size: 12px;
+            }
         }
+
         .contacto2 {
             width: 16rem;
             height: 350px;
             margin-bottom: 20px;
+
             .img-c {
                 padding: 20px;
                 height: 250px;
                 width: 100%;
                 max-width: 400px;
             }
-            .iconos-flex{
+
+            .iconos-flex {
                 .iconos img {
                     height: 18px;
                     padding: 2px;
@@ -133,8 +149,9 @@
                     margin: 6px;
 
                 }
-                .texto-iconos{
-                        p {
+
+                .texto-iconos {
+                    p {
                         font-size: 10px;
                         margin: 4px;
                     }
@@ -148,11 +165,12 @@
 @media screen and (max-width: 500px) {
 
     /* inicio */
-    .botones-i{
+    .botones-i {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+
         button {
             margin-bottom: 15px;
         }
@@ -160,9 +178,10 @@
 
     /* sobremi */
 
-    .card-s{
+    .card-s {
         margin-bottom: 15px;
     }
+
     /* proyectos */
 
     .proyectos-row {
@@ -176,41 +195,46 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+
         .form {
             margin-bottom: 20px;
             height: 400px;
             width: 300px;
+
             textarea {
                 height: 50px;
                 width: 150px;
             }
-        
+
             button {
                 width: 60px;
                 height: 40px;
                 font-size: 12px;
             }
         }
+
         .contacto2 {
             height: 400px;
             width: 300px;
             margin-bottom: 20px;
+
             .iconos-flex {
                 img {
                     height: 18px;
                     padding: 2px;
                     display: block;
                 }
+
                 .texto-iconos {
                     p {
                         font-size: 11px;
                         margin: 4px;
                     }
-               }
+                }
             }
-                
+
         }
-    
+
     }
 
 
@@ -219,7 +243,7 @@
 @media screen and (max-width: 700px) {
 
     /* sobremi */
-    .card-s{
+    .card-s {
         margin-bottom: 15px;
     }
 
@@ -228,9 +252,11 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        .form{
+
+        .form {
             margin-bottom: 20px;
         }
+
         .contacto2 {
             margin-bottom: 20px;
         }

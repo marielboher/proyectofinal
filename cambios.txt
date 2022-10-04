@@ -1,8 +1,4 @@
 ENTREGA SASS + SEO
 Para esta entrega realice los siguientes cambios:
--	Agregue mixin para reutilizar código.
--	Modifique títulos de cada pagina HTML.
--	Agregue meta etiquetas.
--	Agregue alt a imágenes que no lo tenían.
--   corregi rutas
--   Agregue scss a media queries
+-	Agregue extend para reutilizar código.
+-	Modifique diseño de pagina sobre mi.

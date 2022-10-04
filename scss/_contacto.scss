@@ -1,12 +1,13 @@
+/* pagina de contacto */
+
 .main-c {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     .form {
+        @extend .cardex;
         width: 22rem;
         height: 410px;
-        background-color: $fondooscuro;
-        border-radius: 8px;
         padding: 20px 30px;
         box-sizing: border-box;
         div {
@@ -16,6 +17,7 @@
             font-size: 18px;
             padding-bottom: 5px;
             color: $letracolor;
+            font-weight: bold;
         }
         input {
             width: 100%;
@@ -50,9 +52,7 @@
         }
     }
     .contacto2 {
-        background-color: $fondooscuro;
-        border-radius: 8px;
-        border: none;
+        @extend .cardex;
         width: 22rem;
         .img-c {
             padding: 20px;
